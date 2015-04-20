@@ -1,0 +1,9 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Se crean un repositorio vacio y se predispone una lista de archivos en prevision del primer commit del usuario.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+la staging area contiene los archivos que se quieren añadir en el sucesivo commit al repositorio; la working directory sin embargo contiene ambos, ya sea los proximos a añadir como lo nuevos que se añadiran(o no) en sucesivos commits.
+
+
