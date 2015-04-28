@@ -1,9 +1,28 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-Se crean un repositorio vacio y se predispone una lista de archivos en prevision del primer commit del usuario.
+	(not sure) Create an empty repository waiting the first commit of the user
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
-la staging area contiene los archivos que se quieren añadir en el sucesivo commit al repositorio; la working directory sin embargo contiene ambos, ya sea los proximos a añadir como lo nuevos que se añadiran(o no) en sucesivos commits.
+	The staging area contains the files you want to add in the subsequent commit to the repository; however, the working directory contains both, either the next to add as new ones will be added (or not) in successive commits.
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+	Adding to the staging area only the files that comprise that single logical change.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	The branch can be used to trace the modifcation history of a particular new feature even experimental ones.
+
+How do the diagrams help you visualize the branch structure?
+
+	The modification history visualized with the diagram is more clear.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	The merge represented like a commit which join two branch gives a clear sense of really happens.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	The pros of automatic merge are the save of time and avoid errors in manual merging.
 
